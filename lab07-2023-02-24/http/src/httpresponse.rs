@@ -46,3 +46,29 @@ impl HttpResponse {
         res
     }
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_status_code_to_string() {
+        assert_eq!(StatusCode::OK.to_string(), "200 OK");
+        assert_eq!(StatusCode::NotFound.to_string(), "404 Not Found");
+        assert_eq!(StatusCode::Uninitialized.to_string(), "");
+    }
+
+    #[test]
+    fn test_http_response_new() {
+        let response = HttpResponse::new(StatusCode::OK, "Hello, world!".to_string());
+        assert_eq!(response.status_code, StatusCode::OK);
+        assert_eq!(response.headers, vec![("Content-Length".to_string(), "13".to_string())]);
+        assert_eq!(response.msg_body, "Hello, world!".to_string());
+    }
+
+    #[test]
+    fn test_http_response_to_string() {
+        let response = HttpResponse::new(StatusCode::NotFound, "Not found".to_string());
+        let expected = "HTTP/1.1 404 Not Found\r\nContent-Length: 9\r\n\r\nNot found".to_string();
+        assert_eq!(response.to_string(), expected);
+    }
+}

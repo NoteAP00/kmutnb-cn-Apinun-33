@@ -1,6 +1,3 @@
-// Method
-// Reference https://www.rfc-editor.org/rfc/rfc2616#page-36
-
 #[derive(Debug, PartialEq)]
 pub enum Method {
    Get,

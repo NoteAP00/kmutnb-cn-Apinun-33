@@ -1,0 +1,13 @@
+E:\Rust\kmutnb-cn-apinun-33\ProjectRust\rustproject\target\debug\deps\url-814f884275a11550.rmeta: C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+E:\Rust\kmutnb-cn-apinun-33\ProjectRust\rustproject\target\debug\deps\liburl-814f884275a11550.rlib: C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+E:\Rust\kmutnb-cn-apinun-33\ProjectRust\rustproject\target\debug\deps\url-814f884275a11550.d: C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs
+
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\lib.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\host.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\origin.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\parser.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\path_segments.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\slicing.rs:
+C:\Users\note_\.cargo\registry\src\github.com-1ecc6299db9ec823\url-2.3.1\src\quirks.rs:

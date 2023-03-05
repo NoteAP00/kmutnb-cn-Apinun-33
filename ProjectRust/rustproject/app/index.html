@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ใบรายชื่อนักศึกษา</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+
+<script>
+    // JavaScript code
+    // var urlParams = new URLSearchParams("http://klogic.kmutnb.ac.th:8080/kris/reports/report35_fill.jsp");
+    
+
+
+    function function1() {
+        var format = "PDF";
+        var year = document.getElementById("year").value;
+        var semester = document.getElementById("semester").value;
+        var courseCode = document.getElementById("courseCode").value;
+        var section = document.getElementById("section").value;
+
+        //if(year.value && semester.value && courseCode.value && section.value){
+        var iframe = document.getElementById("myIframe");
+        iframe.src = "http://klogic.kmutnb.ac.th:8080/kris/reports/report35_fill.jsp?format=" + format + "&year=" + year + "&semester=" + semester + "&courseCode=" + courseCode + "&section=" + section;
+        //iframe.src = "http://klogic.kmutnb.ac.th:8080/kris/reports/report34_fill.jsp?" + "&year=" + year + "&semester=" + semester + "&courseCode=" + courseCode + "&section=" + section;
+        //}
+       
+    }
+  </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" style="background-color: #D3D3D3;">
+        <div class="container-fluid"> <!--[fluid] navbar จะมีอยู่เต็มทั้งด้านซ้ายและขวา-->
+            <p class="navbar-brand bi bi-house-door-fill">
+                ใบรายชื่อนักศึกษา มจพ [PDF]
+            </p>
+            <p class="navbar-brand">
+                Klogic Server
+            </p>
+    </nav>
+    <div class="container mt-3 mb-3"><!-- ทั้งหน้าจะมีการเว้นซ้ายขวา -->
+        <div class="card text-dark bg-white border-info">
+            <div class="card-header bg-info text-ehite">
+                ตั้งกระทู้ใหม่        
+            </div>
+            <div class="card-body">
+                
+                    <div class="row mx-3">
+                        <label class="col-lg-2 col-form-lable">ปีการศึกษา :</label>
+                        
+                        <div class="col-lg-3">
+                            <input type="text" id="year" class="form-control" require>
+                        </div> 
+                        <div class="col-lg-1"></div>
+                        <label class="col-lg-2 col-form-lable">ภาคเรียนที่ :</label>
+                        
+                        <div class="col-lg-3">
+                            <input type="text" id="semester" class="form-control" require>
+                        </div><div class="col-lg-1"></div> 
+                    </div>
+                    <div class="row mx-3">                
+                     <br>
+                    </div>
+                    <div class="row mx-3">
+                        <label class="col-lg-2 col-form-lable">รหัสวิชา :</label>
+                        
+                        <div class="col-lg-3">
+                            <input type="text" id="courseCode" class="form-control" require>
+                        </div> <div class="col-lg-1"></div>
+                        <label class="col-lg-2 col-form-lable">ตอนเรียนที่ :</label>
+                        
+                        <div class="col-lg-3">
+                            <input type="text" id="section" class="form-control" require>
+                        </div> <div class="col-lg-1"></div>             
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <center>
+                                <button class="btn btn-info btn-sm text-white" onclick="function1()">
+                                    <i class="bi bi-caret-right-square me-1"></i>
+                                    SUBMIT
+                                </button>
+                            </center>
+                        </div>
+                    </div>
+                    
+            </div>
+        </div><iframe class="my-3" src="" id="myIframe"  width="100%" height="1000"></iframe>
+        </div>
+    </div> 
+    
+    
+</body>           
+</html>

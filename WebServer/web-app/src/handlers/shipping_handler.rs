@@ -1,4 +1,4 @@
-use actix_web::{get,web,Responder,HttpResponse};
+use actix_web::{get,Responder,HttpResponse};
 
 #[get("/shipping")]
 async fn get_shipping_handler() -> impl Responder {

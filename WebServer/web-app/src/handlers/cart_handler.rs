@@ -1,11 +1,16 @@
-use actix_web::{web, get, Responder, HttpResponse};
+use actix_web::{web, get,post, Responder, HttpResponse};
 use log::{info, debug};
 use serde_json::json;
 
 use crate::models::product::Product;
 
 
-#[get("/cart")]
+// #[get("/cart")]
+// async fn get_cart() -> impl Responder {
+//     HttpResponse::Ok().json("Hello Jumpbox!")
+// }
+
+#[post("/cart1")]
 async fn get_cart() -> impl Responder {
     HttpResponse::Ok().json("Hello Jumpbox!")
 }
